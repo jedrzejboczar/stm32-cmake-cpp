@@ -2,7 +2,7 @@
 
 This is a template for creating projects using CMake with STM32CubeMX generation tool. It allows to use C++, but can be easily modified for pure C. For the toolchain.cmake you need to download [stm32-cmake](https://github.com/ObKo/stm32-cmake) (there's a straightforward tutorial on its usage too).
 
-Above all it is just a code snippet. Use it however you want.
+Above all it is just a code snippet. You have to understand it and modify the way you need. Use it however you want.
 
 ## Usage
 

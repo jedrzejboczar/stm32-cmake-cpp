@@ -1,0 +1,16 @@
+### PLACE FOR USER COMMANDS
+
+
+
+### CONNECTING TO REMOTE TARGET
+# connect by openocd, log openocd output to a logfile
+# path to openocd.cfg is hard-coded and requires gdb to be run from appropriate directory
+target remote | openocd -f ./remote/openocd.cfg -c "gdb_port pipe; log_output /tmp/openocd.log"
+# reset processor and halt it ('monitor' is used to pass commands to openocd)
+monitor reset halt
+# upload binary
+load
+# set breakpoint on main()
+break main
+# continue until main()
+# continue

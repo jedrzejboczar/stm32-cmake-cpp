@@ -1,3 +1,6 @@
+#ifndef __STM_CONFIG__H
+#define __STM_CONFIG__H
+
 /*
     Interface for uC
     To be included in all other files that use uC.
@@ -34,3 +37,6 @@ namespace stm {
 */
 
 } // namespace stm
+
+
+#endif

@@ -4,7 +4,9 @@
 */
 
 /* Includes (or declare functions with 'extern' if it's prefered) */
-// #include "my_header.h"
+#include "stm_config.h"
+// #include "other_header.h"
+
 
 extern "C" {
 

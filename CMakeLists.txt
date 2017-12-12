@@ -37,11 +37,7 @@ target_sources(${CMAKE_PROJECT_NAME} PUBLIC ${CMSIS_SOURCES} PUBLIC ${STM32HAL_S
 
 
 ### INTERNAL SOURCES ##########################################################
-# STM32Cube generated code
-add_subdirectory(src/stm32cube)
-
-# # Project sources
-# add_subdirectory(src/your/subdirectory)
+add_subdirectory(src)
 
 
 ### Libraries #################################################################
